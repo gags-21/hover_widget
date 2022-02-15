@@ -20,7 +20,7 @@ class _ButtonFeedbackState extends State<ButtonFeedback>
     _controller = AnimationController(
       vsync: this,
       animationBehavior: AnimationBehavior.normal,
-      duration: Duration(
+      duration: const Duration(
         milliseconds: 100,
       ),
       lowerBound: 0.0,
