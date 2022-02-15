@@ -28,6 +28,7 @@ class _ButtonFeedbackState extends State<ButtonFeedback>
     )..addListener(() {
         setState(() {});
       });
+    _controller.forward();
     super.initState();
   }
 

@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Hover Demo'),
     );
   }
 }
@@ -61,8 +61,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 ButtonFeedback(
                   child: ElevatedButton(
-                    onPressed: () {},
-                    child: Text('Button'),
+                    onPressed: () {
+                      setState(() {
+                        _counter = 0;
+                      });
+                    },
+                    child: const Text('Reset'),
                   ),
                 ),
               ],
