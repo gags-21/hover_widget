@@ -1,6 +1,6 @@
-# example
+# Hover Example
 
-A new Flutter project.
+Example project for Hover package.
 
 ## Getting Started
 
