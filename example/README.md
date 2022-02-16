@@ -1,6 +1,6 @@
-# Hover Example
+# Hover Widget Example
 
-Example project for Hover package.
+Example project for hover_widget package.
 
 ## Getting Started
 

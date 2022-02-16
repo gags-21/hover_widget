@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hover/hover.dart';
+import 'package:hover_widget/hover_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hover Demo',
+      title: 'hover_widget Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Hover Demo'),
+      home: const MyHomePage(title: 'hover_widget Demo'),
     );
   }
 }

@@ -3,11 +3,11 @@
 
 ## Example
 
-![Hover Example](https://user-images.githubusercontent.com/61724325/154295360-82b1937e-d169-4abc-bc90-b6530fe84f78.gif)
+![hover_widget Example](https://user-images.githubusercontent.com/61724325/154295360-82b1937e-d169-4abc-bc90-b6530fe84f78.gif)
 
 ## Getting started
 
-To use this package, add the latest version of `hover` as a dependency in your pubspec.yaml file.
+To use this package, add the latest version of `hover_widget` as a dependency in your pubspec.yaml file.
 
 ## Usage
 

@@ -1,4 +1,4 @@
-library hover;
+library hover_widget;
 
 import 'package:flutter/material.dart';
 

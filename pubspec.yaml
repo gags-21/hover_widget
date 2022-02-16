@@ -1,8 +1,8 @@
-name: hover
-description: Simple hover effect for any widget.
+name: hover_widget
+description: Simple hover_widget effect for any widget.
 version: 0.0.1
 # author: Gagan Bhirangi <gagan.bhirangi123@gmail.com>
-homepage: https://github.com/gags-21/hover
+homepage: https://github.com/gags-21/hover_widget
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -25,7 +25,7 @@ flutter:
   # plugin:
   #   platforms:
   #     android:
-  #       package: hover
+  #       package: hover_widget
   #       pluginClass: HelloPlugin
   #     ios:
   #       pluginClass: HelloPlugin
@@ -33,7 +33,7 @@ flutter:
   #       pluginClass: HelloPlugin
   #     web:
   #       pluginClass: HelloPlugin
-  #       fileName: hover.dart
+  #       fileName: hover_widget.dart
 
 
 
