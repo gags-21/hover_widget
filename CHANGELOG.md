@@ -1,3 +1,3 @@
-## 0.0.1
+# 0.1.0+1
 
-* Simple interactive hover feedback.
+- feat: initial commit 🎉

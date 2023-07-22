@@ -1,6 +1,9 @@
+/// Basic feedback when hovering/clicking widgets
 library hover_widget;
 
 import 'package:flutter/material.dart';
+
+export 'src/hover_widget.dart';
 
 class ButtonFeedback extends StatefulWidget {
   const ButtonFeedback({Key? key, required this.child}) : super(key: key);
