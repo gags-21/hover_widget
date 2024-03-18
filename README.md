@@ -4,23 +4,16 @@
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 [![License: MIT][license_badge]][license_link]
 
-Basic feedback when hovering/clicking widgets
+A Very Good Project created by Very Good CLI.
 
 ## Installation 💻
 
 **❗ In order to start using Hover Widget you must have the [Flutter SDK][flutter_install_link] installed on your machine.**
 
-Add `hover_widget` to your `pubspec.yaml`:
-
-```yaml
-dependencies:
-  hover_widget:
-```
-
-Install it:
+Install via `flutter pub add`:
 
 ```sh
-flutter packages get
+dart pub add hover_widget
 ```
 
 ---
