@@ -71,16 +71,18 @@ class _MyHomePageState extends State<MyHomePage> {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           HoverWidget(
-            child: FloatingActionButton(
-              onPressed: _incrementCounter,
-              child: const Icon(Icons.add),
+            onTap: _incrementCounter,
+            child: const FloatingActionButton(
+              onPressed: null,
+              child: Icon(Icons.add),
             ),
           ),
           const SizedBox(height: 10),
           HoverWidget(
-            child: FloatingActionButton(
-              onPressed: _decrementCounter,
-              child: const Icon(Icons.remove),
+            onTap: _decrementCounter,
+            child: const FloatingActionButton(
+              onPressed: null,
+              child: Icon(Icons.remove),
             ),
           ),
         ],

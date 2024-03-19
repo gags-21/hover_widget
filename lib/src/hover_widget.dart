@@ -15,11 +15,12 @@ class HoverWidget extends StatefulWidget {
   /// {@macro hover_widget}
   const HoverWidget({
     required this.child,
+    this.onTap,
     super.key,
   });
 
   final Widget child;
-  // final Function onTap;
+  final Function? onTap;
 
   @override
   _HoverWidgetState createState() => _HoverWidgetState();
@@ -73,7 +74,9 @@ class _HoverWidgetState extends State<HoverWidget>
           Timer(const Duration(milliseconds: 150), () {
             _controller.forward();
           });
-          // widget.onTap();
+          if (widget.onTap != null) {
+           widget.onTap!();
+          }
         },
         child: Transform.scale(
           scale: widgetScale,
