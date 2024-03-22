@@ -1,16 +1,7 @@
-/// {@template hover_widget}
-/// A Very Good Project created by Very Good CLI.
-/// {@endtemplate}
-library;
-// class HoverWidget {
-//   /// {@macro hover_widget}
-//   const HoverWidget();
-// }
-
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 
+/// main class
 class HoverWidget extends StatefulWidget {
   /// {@macro hover_widget}
   const HoverWidget({
@@ -19,7 +10,9 @@ class HoverWidget extends StatefulWidget {
     super.key,
   });
 
+  /// widget to be wrapped
   final Widget child;
+  /// optional onTap functionality
   final Function? onTap;
 
   @override
@@ -60,11 +53,9 @@ class _HoverWidgetState extends State<HoverWidget>
     return MouseRegion(
       onEnter: (f) {
         setState(() => hoverScale = 1.2);
-        // _controller.forward(from: 1);
       },
       onExit: (f) {
         setState(() => hoverScale = 1);
-        // _controller.reverse();
       },
       child: Listener(
         onPointerDown: (event) async {
@@ -75,7 +66,7 @@ class _HoverWidgetState extends State<HoverWidget>
             _controller.forward();
           });
           if (widget.onTap != null) {
-           widget.onTap!();
+            widget.onTap!();
           }
         },
         child: Transform.scale(

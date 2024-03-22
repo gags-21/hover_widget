@@ -70,6 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
+          /// implementation example
           HoverWidget(
             onTap: _incrementCounter,
             child: const FloatingActionButton(
