@@ -6,6 +6,11 @@
 
 A Very Good Project created by Very Good CLI.
 
+## Example 🎥
+
+![ScreenRecording2024-03-23at12 53 38AM-ezgif com-video-to-gif-converter](https://github.com/gags-21/hover_widget/assets/61724325/2a0f5aa6-af52-47de-98de-3cde35103545)
+![ScreenRecording2024-03-23at12 56 26AM-ezgif com-video-to-gif-converter](https://github.com/gags-21/hover_widget/assets/61724325/8b449367-cc22-45fa-a855-14eb8fbd6469)
+
 ## Installation 💻
 
 **❗ In order to start using Hover Widget you must have the [Flutter SDK][flutter_install_link] installed on your machine.**
