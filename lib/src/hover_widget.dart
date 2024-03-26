@@ -12,6 +12,7 @@ class HoverWidget extends StatefulWidget {
 
   /// widget to be wrapped
   final Widget child;
+
   /// optional onTap functionality
   final Function? onTap;
 
@@ -32,7 +33,6 @@ class _HoverWidgetState extends State<HoverWidget>
         milliseconds: 50,
       ),
       lowerBound: .9,
-      // upperBound: 1,
       value: 1,
     )..addListener(() {
         setState(() {
