@@ -1,9 +1,10 @@
-# Hover Widget
+
+![Group 3hover_widget_header](https://github.com/gags-21/hover_widget/assets/61724325/2987c2aa-d078-46b4-94bb-5195adf59632)
+
+# Hover Widget ⬁
 
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
-
-## Hover Widget ⬁
 
 With this package, enhance the user interaction and engagement in your Flutter applications by effortlessly adding interactive hover and click effects to any widget. Elevate the user experience and make your app more intuitive and engaging with just a few lines of code.
 
