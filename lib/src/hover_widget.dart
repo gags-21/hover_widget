@@ -14,16 +14,21 @@ class HoverWidget extends StatefulWidget {
   final Widget child;
 
   /// optional onTap functionality
-  final Function? onTap;
+  final void Function()? onTap;
 
   @override
-  _HoverWidgetState createState() => _HoverWidgetState();
+  HoverWidgetState createState() => HoverWidgetState();
 }
 
-class _HoverWidgetState extends State<HoverWidget>
+/// main state
+class HoverWidgetState extends State<HoverWidget>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
+
+  /// observe user taps
   double widgetScale = 1;
+
+  /// observe user hover
   double hoverScale = 1;
   @override
   void initState() {
@@ -65,9 +70,7 @@ class _HoverWidgetState extends State<HoverWidget>
           Timer(const Duration(milliseconds: 150), () {
             _controller.forward();
           });
-          if (widget.onTap != null) {
-            widget.onTap!();
-          }
+          widget.onTap?.call();
         },
         child: Transform.scale(
           scale: widgetScale,
